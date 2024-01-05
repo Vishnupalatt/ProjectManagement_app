@@ -1,12 +1,13 @@
 import React from 'react'
 import Header from '../components/Header'
+import Projectcard from '../components/Projectcard'
 
 function Projects() {
     return (
         <div>
             <Header />
             <div style={{ marginTop: '100px' }}>
-                <div className='text-center mx-2 mb-2 border rounded'>
+                <div className='text-center mx-2 mb-2  rounded'>
                     <h3>All Projects</h3>
                     <div className='d-flex justify-content-center mt-5 w-100 '>
                         <div className='d-flex align-items-center border rounded w-50 '>
@@ -16,7 +17,11 @@ function Projects() {
                             </div>
                         </div>
                     </div>
+                    <div>
+                        <Projectcard />
+                    </div>
                 </div>
+
             </div>
         </div>
     )
